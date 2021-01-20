@@ -25,4 +25,4 @@ To address the needs of local marketers, our project is patterned after the work
 2.   To perform a feature importance analysis to identify <b>key features</b> that are most greatly associated with influencer-generated videos. 
 
 ## <b> Summary of Results </b>
-![Best Model Results](Images/Screen Shot 2021-01-20 at 8.00.25 PM.png)
+![Best Model Results](Images/Screen%20Shot%202021-01-20%20at%208.00.25%20PM.png)
