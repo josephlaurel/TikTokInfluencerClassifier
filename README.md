@@ -26,3 +26,21 @@ To address the needs of local marketers, our project is patterned after the work
 
 ## <b> Summary of Results </b>
 ![Best Model Results](Images/Screen%20Shot%202021-01-20%20at%208.00.25%20PM.png)
+
+<p align='justify'>
+Listed above are best performing versions of each algorithm sorted in ascending order of accuracy. Hyperparameter optimization using 10-fold cross validation was used to generate the optimal classifiers. Using the original dataset was found to improve the performance of the Naive Bayes and K-nearest neighbors models, while synthetic minority oversampling improved the performance of the Random Forest and XGBoost classifiers. The XGBoost classifier generated the highest accuracy at 96%.
+
+Given the imbalance between of non-influencer and influencer generated videos in the dataset, it is also important to evaluate the performance of the models using the f1-score, which considers the impact of both false negative and false positive predictions. False negative predictions would mean leaving influencers with good engagement rates undetected, while false positive predictions would incorrectly classify non-influencers as influencers. Hence, we can minimize opportunity costs associated with both scenarios by comparing the models’ scores.
+
+As shown in the last row, the XGBoost model’s f1-score for non-influencers is 97% while its f1-score for influencers is 93%. Although the model is slightly better at classifying non-influencers, the classification of influencers may be improved in the future as more natural observations of influencer-generated videos are added to the training data. Moreover, the overall performance is positive with both f1-scores above 90%, as well as false negative and false positive rates below 10%. Hence, we should be able to use the XGBoost model to holistically identify influencers and non-influencers with minimal error, which would allow brands to select the right endorsers for their campaigns.
+</p>
+
+![Feature Importance Analysis](Images/Screen%20Shot%202021-01-20%20at%208.07.52%20PM.png)
+
+<p align='justify'>
+The feature importance comparison for the best-performing XGBoost classifier is shown above. Out of the top 15 features, those most highly correlated with influencer-generated videos were video play count, video heart count and whether the video was a reply, each having importance ratings of over 6%. Moreover, 6 out of the 19 engineered features (marked above with asterisks) were among the most important features. These include whether the video is a duet, effect sticker count, challenge count, video height, video width, and whether the video is a reply.
+
+Intuitively, engagement metrics such play count, heart count, authorDiggCount (meaning number of videos liked by the user), countTaggedUsers, follower count, and author verified status are among the the top features correlated with a user’s influencer classifications. 
+
+Platform-specific features such as author video count, isDuet, isReply, effectStickerCount, challengeCount, and video height and width are also top indicators of an influencer generated video. Additional features may be engineered to more deeply assess the impact of these factors on influencer classification. Some examples of these are the number of duet and reply videos made by the users, as well as the aggregate number of the user’s videos that contain effect stickers.
+</p>
