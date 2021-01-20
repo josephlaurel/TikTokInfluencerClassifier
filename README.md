@@ -1,6 +1,6 @@
 # **TikTok Influencer Classification using Trending Videos in the Philippines**
 by [Joseph Laurel](http://linkedin.com/in/josephlaurel)
-<br> assisted by [Francisco Aguirre](http://linkedin.com/in/franciscoaguirre)
+<br> assisted by [Francisco Aguirre](https://www.linkedin.com/in/franciscoeaguirre/)
 
 ## <b> Background </b>
 <p align='justify'>
