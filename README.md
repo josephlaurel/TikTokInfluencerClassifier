@@ -1,4 +1,7 @@
-# <b> Background </b>
+# **TikTok Influencer Classification using Trending Videos in the Philippines**
+by Joseph Laurel and Francisco Aguirre
+
+## <b> Background </b>
 <p align='justify'>
 According to the website iPrice, <b>TikTok</b> was the most downloaded entertainment app in the Philippines’ iOS App Store as of 2020. Besides delighting users with addictive short-form videos, the app has significantly grown online search interest in products which have been featured in viral clips. For instance, Google Trends reported a 1329% surge in interest for Ocean Spray’s cran-raspberry juice after being featured in an American TikTok user’s unsponsored video <i><a href="https://www.onenews.ph/tiktok-still-the-most-downloaded-entertainment-app-in-phl-retains-global-popularity-despite-controversies">(Mateo, 2020)</a></i>. Hence, both local and foreign brands have increasingly turned to the platform as a content marketing tool.
 <br><br>
@@ -13,3 +16,10 @@ However, several limitations prevent local marketers from fully benefiting from 
 So, how can local marketers better leverage TikTokers’ huge online influence to drive the growth of their brands?
 
 </p>
+
+## <b> Objectives </b>
+
+To address the needs of local marketers, our project is patterned after the work of [Şimşek and Kabakus (2018)](https://www.researchgate.net/publication/329896342_Finding_Influencers_on_Twitter_with_Using_Machine_Learning_Classification_Algorithms) and has the following objectives:
+
+1.   To develop a holistic <b>influencer classification algorithm</b> that considers the audio, visual and text characteristics of a trending video, the engagement on a single video, and the overall engagement on the creator's account. The model was trained and tested using 6,882 trending videos scraped between November and December 2020 using the unofficial TikTok application programming interface wrapper created by [David Teather](https://davidteather.github.io/TikTok-Api/).<br><br>
+2.   To perform a feature importance analysis to identify <b>key features</b> that are most greatly associated with influencer-generated videos. 
