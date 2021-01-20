@@ -24,7 +24,7 @@ To address the needs of local marketers, our project is patterned after the work
 1.   To develop a holistic <b>influencer classification algorithm</b> that considers the audio, visual and text characteristics of a trending video, the engagement on a single video, and the overall engagement on the creator's account. The model was trained and tested using 6,882 trending videos scraped between November and December 2020 using the unofficial TikTok application programming interface wrapper created by [David Teather](https://davidteather.github.io/TikTok-Api/).<br>
 2.   To perform a feature importance analysis to identify <b>key features</b> that are most greatly associated with influencer-generated videos. 
 
-## <b> Summary of Results </b>
+## <br><b> Summary of Results </b>
 ![Best Model Results](Images/Screen%20Shot%202021-01-20%20at%208.00.25%20PM.png)
 
 <p align='justify'>
